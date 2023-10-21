@@ -1,8 +1,8 @@
-# [your app name here]
+# [Exercise App]
 
 CodePath WEB103 Final Project
 
-Designed and developed by: Justin Chu, Shohruz Ernazarov
+Designed and developed by: Justin Chu, Benjamin Jon
 
 🔗 Link to deployed app:
 
@@ -10,17 +10,17 @@ Designed and developed by: Justin Chu, Shohruz Ernazarov
 
 ### Description and Purpose
 
-[text goes here]
+This app will allow users to log their exercise data in an app that is neat and keeps them motivated to work out every day.
 
 ### Inspiration
 
-[text goes here]
+HabitNow, it has a nice user interfaces and allows users to stay motivated
 
 ## Tech Stack
 
-Frontend:
+Frontend: React
 
-Backend:
+Backend: Express, Railway, Node.Js
 
 ## Features
 
