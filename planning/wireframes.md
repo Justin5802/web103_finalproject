@@ -4,18 +4,24 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## List of Pages
 
-[👉🏾👉🏾👉🏾 List the pages you expect to have in your app, with a ⭐ next to pages you have wireframed]
+[1. Log In Page
+ 2. My Playlists
+ 3. Music Library
+ 4. Playlist Generator]
 
-## Wireframe 1: [page title]
+## Wireframe 1: [Log In Page]
 
-[👉🏾👉🏾👉🏾 include wireframe 1]
+<img width="654" alt="Muze Log In Page Mockup" src="https://github.com/Justin5802/web103_finalproject/assets/93137213/4f2257ac-c90b-4e03-b8d9-85878f5cb344">
 
-## Wireframe 2: [page title]
 
-[👉🏾👉🏾👉🏾 include wireframe 2]
+## Wireframe 2: [Empty My Playlists Page]
 
-## Wireframe 3: [page title]
+<img width="702" alt="Muze Empty Playlists Webpage Mockup" src="https://github.com/Justin5802/web103_finalproject/assets/93137213/70414843-3554-41cf-bb68-c664e2b9b450">
 
-[👉🏾👉🏾👉🏾 include wireframe 3]
+
+## Wireframe 3: [Music Library Page]
+
+<img width="779" alt="Muze Music Library Webpage Mockup" src="https://github.com/Justin5802/web103_finalproject/assets/93137213/ccbde7b1-c4c8-4c1c-ac86-c6de932ad5e4">
+
 
 [👉🏾👉🏾👉🏾 include more wireframes as desired]
