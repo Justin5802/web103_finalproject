@@ -4,11 +4,15 @@ Reference the Creating an Entity Relationship Diagram final project guide in the
 
 ## List of Pages
 
-[1. Log In Page
- 2. My Playlists
- 3. Music Library
- 4. Playlist Generator
- Figma Prototype link: https://www.figma.com/file/RVB9HbWJlUbKE2VA5NhBK5/Muze?type=design&node-id=0%3A1&mode=design&t=3SpgztimfIXAwcud-1]
+[1. Log In Page]
+
+[2. My Playlists]
+
+[3. Music Library]
+
+[4. Playlist Generator]
+ 
+[Figma Prototype link: https://www.figma.com/file/RVB9HbWJlUbKE2VA5NhBK5/Muze?type=design&node-id=0%3A1&mode=design&t=3SpgztimfIXAwcud-1]
 
 ## Wireframe 1: [Log In Page]
 
