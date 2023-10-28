@@ -3,7 +3,8 @@
 This web app's Entity Relationship Diagram (ERD) has been created using Lucid Charts. It showcases five tables, each having either a one-to-many or many-to-many relationship with each other. 
 
 ## Create the List of Tables
-<img width="484" alt="image" src="https://github.com/Justin5802/web103_finalproject/assets/98132824/733d9513-bd35-408a-838b-5bfaaf07e939">
+<img width="679" alt="image" src="https://github.com/Justin5802/web103_finalproject/assets/98132824/8e0935fc-8c32-4485-9d6b-6115e3cb04dd">
+
 
 
 ## Add the Entity Relationship Diagram
