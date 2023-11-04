@@ -44,7 +44,11 @@ Backend: Express, NodeJS, Railway
 
 [When users are indecisive or are unsure of what songs they would like to add to their playlist, the app should have a feature that automatically generates a playlist for them based upon their preferences. Users can either take a short quiz about their personal music preferences, or choose a specific genre, and a playlist will be automatically generated for them based on their responses or selected genre.]
 
-[gif goes here]
+### [Feature 4: Create an Interactive Login Screen]
+
+[An engaging and interactive login screen must be made to attract users to the site]
+
+[[gif goes here]](https://submissions.us-east-1.linodeobjects.com/web103/iwcZoV3R.gif)
 
 ### [Stretch Feature: Playlist Sharing]
 
