@@ -1,0 +1,27 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"); /* Font Awesome Icons */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); /* Poppins Font */
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
+*, 
+*::after, 
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
