@@ -37,4 +37,4 @@ You will need to reference the GitHub Project Management guide in the course por
 
 ### 5. What additional support will you need in upcoming units as you continue to work on your final project?
 
-[👉🏾👉🏾👉🏾 your answer here]
+[We would likely need to priortize more of our time on this project, which I hope to do once a lot of my work clears up. We believe time management is highly important, and thankfully, with the project board and features list outlined, we are already prepared for the upcoming units to work on our final project.]
