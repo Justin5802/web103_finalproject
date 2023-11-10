@@ -9,12 +9,20 @@ p {
 
 .login-left > *:hover, .robot-img:hover {
     transform: scale(1.02);
-    transition: transform 0.5s;
 }
 
 .login {
     display: flex;
     gap: 5rem;
+    max-height: 1000px;
+    overflow: hidden;
+    opacity: 1; 
+    transition: opacity 0.5s ease, max-height 0.2s linear; 
+}
+
+.login.fade-out {
+    opacity: 0;
+    max-height: 0;
 }
 
 .login-left {
