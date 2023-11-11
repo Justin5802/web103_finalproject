@@ -1,8 +1,10 @@
 import { useState } from 'react'
 import { useRoutes } from 'react-router-dom'
 import './App.css'
+import Logo from './components/Logo'
 import Login from './components/Login'
 import MyPlaylists from './components/MyPlaylists'
+import PlaylistDetails from './components/PlaylistDetails'
 import Music from './components/Music'
 import CreatePlaylist from './components/CreatePlaylist'
 import GeneratePlaylist from './components/GeneratePlaylist'
@@ -18,6 +20,10 @@ function App() {
     {
       path: '/myplaylists',
       element: <MyPlaylists/>
+    },
+    {
+      path: '/myplaylists/:id',
+      element: <PlaylistDetails />
     },
     {
       path: '/music',

@@ -1,0 +1,55 @@
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+}
+
+input,
+textarea {
+    padding: 0.6rem;
+    width: 30rem;
+    margin-bottom: 1.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-btn {
+    background-color: #3b2ecd;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form-btn:hover {
+    background-color: #2b1fb5;
+}
+
+.form {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.form-title-1 {
+    font-size: 3rem;
+}
+
+.form-title-2 {
+    font-size: 7rem;
+}
+
+.form-title-3 {
+    font-size: 3rem;
+}

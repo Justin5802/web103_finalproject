@@ -12,7 +12,9 @@ const Login = () => {
     const handleLogin = () => {
         setLoggedIn(!loggedIn) //setLoggedIn once the user has logged in
         console.log('Login Successful')
-        navigate('/myplaylists') 
+        setTimeout(() => {
+            navigate('/myplaylists') 
+        }, 500)
     }
 
     return (

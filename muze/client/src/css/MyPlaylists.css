@@ -1,0 +1,92 @@
+.playlists {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+
+.playlists-title {
+    margin-top: 5rem;
+}
+
+.playlists-title :first-child {
+    font-size: 4rem;
+}
+
+.playlists-title-playlists {
+    font-size: 6rem;
+}
+
+.playlists-main {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 5rem;
+    height: 80vh;
+    overflow-y: auto; /* Enable vertical scrolling */
+    align-items: flex-start;
+    width: 100%;
+}
+
+.playlist {
+    width: 100%;
+}
+
+.playlist-image {
+    width: 100%;
+}
+
+.playlists_buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.add-btn {
+    width: calc(2vw + 5rem);
+    height: calc(2vw + 5rem);
+    color: white;
+    background-color: rgb(14, 105, 105);
+    font-size: 3rem;    
+    text-decoration: none;
+    border-radius: 50%;
+    border: none;
+}
+
+.add-btn:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.generate-btn, .create-btn {
+    cursor: pointer;
+    width: calc(1vw + 5rem);
+    height: calc(1vw + 5rem);
+    text-decoration: none;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    border: none;
+    color: white;
+    background-color: rgb(63, 153, 153);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateX(-135px);
+    transition: visibility 0.5s ease, opacity 0.5s ease, transform 0.5s ease; 
+}
+
+.generate-btn.show, .create-btn.show {
+    opacity: 1;
+    transform: translateX(0);
+    visibility: visible;
+}
+
+.generate-btn:hover, .create-btn:hover {
+    transform: scale(1.1);
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
