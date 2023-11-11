@@ -1,4 +1,4 @@
-# Muze (working title)
+# Muze 
 
 CodePath WEB103 Final Project
 
@@ -28,13 +28,13 @@ Backend: Express, NodeJS, Railway
 
 ## Features
 
-### [Feature 1: Music Database Selection]
+### [Feature 1: Music Database Selection] 
 
 [The user should be able to access a music database displayed in a visually accessible manner. The database should consist of music from multiple different genres and artists, and the user should select specific songs that they like and it automatically adds them to their playlist.]
 
 [gif goes here]
 
-### [Feature 2: Music Playlist Creation]
+### [Feature 2: Music Playlist Creation] 
 
 [After choosing songs from a database, the user should be able to create their own playlists consisting of the songs they choose to save. In addition, they should be able to sort their playlists based on attributes such as genre or mood, or can even sort playlists by their own criteria.]
 
@@ -44,13 +44,13 @@ Backend: Express, NodeJS, Railway
 
 [When users are indecisive or are unsure of what songs they would like to add to their playlist, the app should have a feature that automatically generates a playlist for them based upon their preferences. Users can either take a short quiz about their personal music preferences, or choose a specific genre, and a playlist will be automatically generated for them based on their responses or selected genre.]
 
-### [Feature 4: Create an Interactive Login Screen]
+### [Feature 4: Create an Interactive Login Screen] ✅
 
 [An engaging and interactive login screen must be made to attract users to the site]
 
 [[gif goes here]](https://submissions.us-east-1.linodeobjects.com/web103/iwcZoV3R.gif)
 
-### [Feature 5: Create a Page for Generating Playlists and All the Saved Playlists of a User]
+### [Feature 5: Create a Page for Generating Playlists and All the Saved Playlists of a User] ✅
 
 [An easy to use front end must be made for easy calls to the backend API and for users to use]
 
