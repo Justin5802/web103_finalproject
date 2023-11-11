@@ -6,67 +6,78 @@ import '../css/MyPlaylists.css'
 
 const MyPlaylists = () => {
 
-    const [playlists, setPlaylists] = useState([
-        {
-          name: 'Playlist 1',
-          description: 'This is the first playlist',
-          dateCreated: '2023-01-01',
-          image: 'https://via.placeholder.com/300x200?text=playlist1',
-        },
-        {
-          name: 'Playlist 2',
-          description: 'Another awesome playlist',
-          dateCreated: '2023-02-15',
-          image: 'https://via.placeholder.com/300x200?text=playlist2',
-        },
-        {
-          name: 'Playlist 3',
-          description: 'The third playlist in the collection',
-          dateCreated: '2023-03-20',
-          image: 'https://via.placeholder.com/300x200?text=playlist3',
-        },
-        {
-          name: 'Playlist 4',
-          description: 'A fantastic playlist for your mood',
-          dateCreated: '2023-04-10',
-          image: 'https://via.placeholder.com/300x200?text=playlist4',
-        },
-        {
-          name: 'Playlist 5',
-          description: 'Get ready for some upbeat tunes!',
-          dateCreated: '2023-05-05',
-          image: 'https://via.placeholder.com/300x200?text=playlist5',
-        },
-        {
-          name: 'Playlist 6',
-          description: 'Chill and relax with this playlist',
-          dateCreated: '2023-06-15',
-          image: 'https://via.placeholder.com/300x200?text=playlist6',
-        },
-        {
-          name: 'Playlist 7',
-          description: 'An eclectic mix of your favorite genres',
-          dateCreated: '2023-07-20',
-          image: 'https://via.placeholder.com/300x200?text=playlist7',
-        },
-        {
-          name: 'Playlist 8',
-          description: 'Dance the night away with these tracks',
-          dateCreated: '2023-08-08',
-          image: 'https://via.placeholder.com/300x200?text=playlist8',
-        },
-        {
-          name: 'Playlist 9',
-          description: 'Explore new sounds with this playlist',
-          dateCreated: '2023-09-12',
-          image: 'https://via.placeholder.com/300x200?text=playlist9',
-        },
-        {
-          name: 'Playlist 10',
-          description: 'A mix of old and new favorites',
-          dateCreated: '2023-10-05',
-          image: 'https://via.placeholder.com/300x200?text=playlist10',
-    }])
+  const [playlists, setPlaylists] = useState([
+    {
+      id: '1',
+      name: 'Playlist 1',
+      description: 'This is the first playlist',
+      dateCreated: '2023-01-01',
+      image: 'https://via.placeholder.com/300x200?text=playlist1',
+    },
+    {
+      id: '2',
+      name: 'Playlist 2',
+      description: 'Another awesome playlist',
+      dateCreated: '2023-02-15',
+      image: 'https://via.placeholder.com/300x200?text=playlist2',
+    },
+    {
+      id: '3',
+      name: 'Playlist 3',
+      description: 'The third playlist in the collection',
+      dateCreated: '2023-03-20',
+      image: 'https://via.placeholder.com/300x200?text=playlist3',
+    },
+    {
+      id: '4',
+      name: 'Playlist 4',
+      description: 'A fantastic playlist for your mood',
+      dateCreated: '2023-04-10',
+      image: 'https://via.placeholder.com/300x200?text=playlist4',
+    },
+    {
+      id: '5',
+      name: 'Playlist 5',
+      description: 'Get ready for some upbeat tunes!',
+      dateCreated: '2023-05-05',
+      image: 'https://via.placeholder.com/300x200?text=playlist5',
+    },
+    {
+      id: '6',
+      name: 'Playlist 6',
+      description: 'Chill and relax with this playlist',
+      dateCreated: '2023-06-15',
+      image: 'https://via.placeholder.com/300x200?text=playlist6',
+    },
+    {
+      id: '7',
+      name: 'Playlist 7',
+      description: 'An eclectic mix of your favorite genres',
+      dateCreated: '2023-07-20',
+      image: 'https://via.placeholder.com/300x200?text=playlist7',
+    },
+    {
+      id: '8',
+      name: 'Playlist 8',
+      description: 'Dance the night away with these tracks',
+      dateCreated: '2023-08-08',
+      image: 'https://via.placeholder.com/300x200?text=playlist8',
+    },
+    {
+      id: '9',
+      name: 'Playlist 9',
+      description: 'Explore new sounds with this playlist',
+      dateCreated: '2023-09-12',
+      image: 'https://via.placeholder.com/300x200?text=playlist9',
+    },
+    {
+      id: '10',
+      name: 'Playlist 10',
+      description: 'A mix of old and new favorites',
+      dateCreated: '2023-10-05',
+      image: 'https://via.placeholder.com/300x200?text=playlist10',
+    }
+  ]);
         
     const [ buttonHovered, setButtonHovered ] = useState(false)
     const navigate = useNavigate();
@@ -115,9 +126,9 @@ const MyPlaylists = () => {
 
             </div>
             <div className="playlists-main">
-                {playlists ? (
+                {playlists && playlists.length > 0 ? (
                     playlists.map((playlist, index) => (
-                        <Playlist index={index} playlist={playlist}/>
+                        <Playlist key={index} playlist={playlist}/>
                     ))
                 )
                 : 

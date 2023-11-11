@@ -1,0 +1,26 @@
+.create-playlist {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    width: auto;
+}
+
+.create-playlist-title-1 {
+    font-size: 3rem;
+}
+
+.create-playlist-btn {
+    border: none;
+    text-decoration: none;
+    background-color: #7d77bc;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5%;
+    font-size: 1rem;
+}
+
+.create-playlist-btn:hover {
+    background-color: #5d57a0;
+}

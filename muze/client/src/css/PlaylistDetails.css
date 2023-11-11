@@ -1,0 +1,46 @@
+.playlist-details {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.playlist-details-main {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist-details-name {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.playlist-details-description {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.playlist-details-songs {
+    align-items: center;
+    width: 100%;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.playlist-details-songs-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    overflow-y: scroll;
+
+}
+
+.playlist-details-songs > h2 {
+    margin-bottom: 1rem;
+}
