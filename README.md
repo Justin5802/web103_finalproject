@@ -54,7 +54,8 @@ Backend: Express, NodeJS, Railway
 
 [An easy to use front end must be made for easy calls to the backend API and for users to use]
 
-![image](https://github.com/Justin5802/web103_finalproject/assets/98132824/92016a84-1ebd-4ffa-a599-a5d5889d28ea)
+[[gif goes here]](https://i.imgur.com/mpvKQVw.gif)
+
 
 
 
