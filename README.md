@@ -50,6 +50,14 @@ Backend: Express, NodeJS, Railway
 
 [[gif goes here]](https://submissions.us-east-1.linodeobjects.com/web103/iwcZoV3R.gif)
 
+### [Feature 5: Create a Page for Generating Playlists and All the Saved Playlists of a User]
+
+[An easy to use front end must be made for easy calls to the backend API and for users to use]
+
+![image](https://github.com/Justin5802/web103_finalproject/assets/98132824/92016a84-1ebd-4ffa-a599-a5d5889d28ea)
+
+
+
 ### [Stretch Feature: Playlist Sharing]
 
 [This feature will allow users to share their personal platforms on various social platforms, such as Instagram and Twitter/X. After saving or generating a playlist, the user should see a prompt to share their playlist on social media, in which upon clicking said option, a post would be generated sharing the playlist and urging viewers to create their own playlist with a link to the website/app.]
