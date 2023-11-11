@@ -1,15 +1,18 @@
 import Logo from './Logo'
 import '../css/Login.css'
 import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
 
     const [ loggedIn, setLoggedIn ] = useState(false)
+    const navigate = useNavigate()
 
 
     const handleLogin = () => {
         setLoggedIn(!loggedIn) //setLoggedIn once the user has logged in
-        console.log('Login button clicked')
+        console.log('Login Successful')
+        navigate('/myplaylists') 
     }
 
     return (

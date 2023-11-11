@@ -2,7 +2,7 @@ const CreatePlaylist = () => {
 
     return(
         <>
-            CreatePlaylist
+        
         </>
     )
 }

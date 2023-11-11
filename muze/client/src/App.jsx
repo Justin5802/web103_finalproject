@@ -5,6 +5,7 @@ import Login from './components/Login'
 import MyPlaylists from './components/MyPlaylists'
 import Music from './components/Music'
 import CreatePlaylist from './components/CreatePlaylist'
+import GeneratePlaylist from './components/GeneratePlaylist'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,6 +26,14 @@ function App() {
     {
       path: '/createplaylist', 
       element: <CreatePlaylist/>
+    },
+    {
+      path: '/generateplaylist',
+      element: <GeneratePlaylist/>
+    },
+    {
+      path: '*',
+      element: <h1>404</h1>
     }
   ])
 

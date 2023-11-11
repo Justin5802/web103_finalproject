@@ -3,7 +3,7 @@ const MyPlaylists = () => {
 
     return (
         <>
-            Playlists
+            <h1>My Playlists</h1>
         </>
     )
 
