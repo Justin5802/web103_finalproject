@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import Playlist from './Playlist'
+import { Link } from 'react-router-dom'
 import '../css/MyPlaylists.css'
 
 
@@ -128,7 +128,12 @@ const MyPlaylists = () => {
             <div className="playlists-main">
                 {playlists && playlists.length > 0 ? (
                     playlists.map((playlist, index) => (
-                        <Playlist key={index} playlist={playlist}/>
+                      <Link className="playlist" to={`/myplaylists/${playlist.id}`}>
+                        <h1>{playlist.name}</h1>
+                        <img className="playlist-image" src={playlist.image} alt="" />
+                        <h2>{playlist.description}</h2>
+                        <h2>{playlist.dateCreated}</h2>
+                      </Link>
                     ))
                 )
                 : 

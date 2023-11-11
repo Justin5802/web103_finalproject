@@ -27,6 +27,7 @@ const Form = () => {
     e.preventDefault();
     // Add form submission logic here
     console.log('Form submitted:', formData);
+    alert(`${formData.name} Playlist Generated!`)
     navigate('/myplaylists')
   };
 

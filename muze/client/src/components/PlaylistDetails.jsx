@@ -11,7 +11,11 @@ const PlaylistDetails = () => {
         { songName: 'Song 3' },
         { songName: 'Song 4' },
         { songName: 'Song 5' },
-        { songName: 'Song 6' }
+        { songName: 'Song 6' },
+        { songName: 'Song 7' },
+        { songName: 'Song 8' },
+        { songName: 'Song 9' },
+        { songName: 'Song 10' },
     ]);
 
     const [ playlist, setPlaylist ] = useState({
