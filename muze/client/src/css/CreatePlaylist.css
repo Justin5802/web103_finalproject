@@ -19,6 +19,7 @@
     padding: 0.8rem 1.5rem;
     border-radius: 5%;
     font-size: 1rem;
+    margin-bottom: 5rem;
 }
 
 .create-playlist-btn:hover {
@@ -47,4 +48,37 @@
 
 .playlist-name {
     font-size: 5rem;
+}
+
+.song-search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.song-search > input {
+    width: 30rem;
+}
+
+.songs-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.song-image {
+    width: 5rem;
+    height: 5rem;
+}
+
+.song-display {
+    cursor: pointer;
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
 }

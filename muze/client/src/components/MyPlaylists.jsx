@@ -128,7 +128,7 @@ const MyPlaylists = () => {
             <div className="playlists-main">
                 {playlists && playlists.length > 0 ? (
                     playlists.map((playlist, index) => (
-                      <Link className="playlist" to={`/myplaylists/${playlist.id}`}>
+                      <Link key={index} className="playlist" to={`/myplaylists/${playlist.id}`}>
                         <h1>{playlist.name}</h1>
                         <img className="playlist-image" src={playlist.image} alt="" />
                         <h2>{playlist.description}</h2>

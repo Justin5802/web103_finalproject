@@ -1,4 +1,4 @@
-import { request } from '../API.js'
+import { request } from '../utilities/API.js'
 
 const playlistsURL = "/api/playlists"
 
